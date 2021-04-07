@@ -1,0 +1,37 @@
+name: glaciers
+description: Leading legal service provider in Africa providing the highest quality of legal services with experience and expertise in corporate affairs, transactional practice and all areas of litigation and dispute resolution.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/Resources/Logo/logo1.jpeg
+    - lib/Resources/Icons/
+    - lib/Resources/Photos/
+    - lib/Resources/Profile/
+
+  # fonts:
+  #   - family: Emporia
+  #     fonts:
+  #       - asset: lib/Resources/Fonts/EmporiaRegular.otf
+
+  #   - family: Sebino
+  #     fonts:
+  #       - asset: lib/Resources/Fonts/Sebino-Bold.ttf
